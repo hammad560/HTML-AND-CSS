@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+<style>
+    table,tr,td
+    {
+        border: 1px solid black;
+
+    }
+
+    .doc
+    {
+        text-decoration: none;
+    }
+</style>
+<body>
+    <table>
+    <div id="header">
+        <tr style="background-color:aquamarine;">
+            <td colspan="2">
+                <h2>Site Name</h2>
+            </td>
+        </tr>
+    </div>
+    <div id="navigation" class="doc">
+        <tr style="background-color:bisque; color: black;">
+            <td colspan="2">
+                <a href="#" id="home-navaigate">Home</a> | <a href="#" id="about-us-navaigate">ABOUT US</a> | <a href="#" id="gallery-navaigate">GALLERY</a> | <a href="#" id="faq-navaigate">FAQ</a> | <a href="#" id="contect-us-navaigate">CONTECT US</a>
+            </td>
+        </tr>
+    </div>
+    <div id="main">
+        <tr>
+            <td style="width: 900px;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eveniet non doloremque perspiciatis delectus ab corporis quaerat fuga deserunt, nihil doloribus. Totam harum quaerat doloremque quisquam magnam eum delectus nostrum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate deleniti ipsam nisi incidunt vel praesentium, alias repellendus numquam neque? Cupiditate ex eligendi totam iusto mollitia quaerat laboriosam cumque reprehenderit culpa? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusamus voluptates. Suscipit nisi dolore nobis natus praesentium fugiat velit deleniti quia? Omnis, repellendus iste. Repellat illum eveniet atque ipsa saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsam mollitia iure explicabo, officiis provident numquam, quis id tenetur doloremque molestias? Voluptatem porro commodi nisi exercitationem ipsam corporis quibusdam sit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, totam. Doloremque, magni voluptatem asperiores quis ab odit velit incidunt accusantium? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere delectus quod voluptatum voluptate? Rerum, quam, officiis vero consequatur suscipit cumque assumenda temporibus aperiam quia non, saepe qui exercitationem? Corrupti, quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ipsa dolor voluptatibus officia nemo nesciunt nulla repellat officiis, eveniet, autem perferendis! Omnis consequuntur veritatis dicta quas itaque voluptate distinctio cumque!</p>
+            </td>
+    </div>        
+            <td>       
+    <div>     
+                <ul 
+                style="position: relative; top: -75px; left: -10px;"
+                >
+                    <li type="disc">HOME</li>
+                    <li>ABOUT US</li>
+                    <li>GALLERY</li>
+                    <li>FAQ</li>
+                    <li>CONTECT US</li>
+                </ul>
+            </td>
+        </tr>
+    </div>    
+    <div id="footer">
+        <tr style="background-color: aqua;">
+            <td colspan="2">Copyright sitename &copy; 2023</td>
+        </tr>
+    </div>       
+    </table>
+    <script type="text/javascript"> 
+
+        let element = document.getElementById('header').innerText;
+        document.write(element);
+    </script>
+</body>
+</html>

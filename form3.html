@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web Form</title>
+	</head>
+	<body>
+			<form >
+				<label>First Name</label><br><input type="text" name="fname"><br><label>Last Nmae</label><br> <input type="text" name="lname">   <br>  
+				<label>Mobile No</label><br> <input type="integer" name="number"><br>
+				<label>Email</label><br> <input type="email" name="mail">
+				<br><br>
+				<label for="cars">Choose a car:</label>
+
+				<select form="cars" size="0">
+					<option value="Honda" id="honda"> Honda</option>
+					<option value="civic" id="civic"> Civic</option>
+					<option value="bmw" id="bmw"> BMW</option>
+					<option value="corola" id="corola"> COROLA</option>
+					<option value="cultas" id="cultas"> CULTUS</option>
+				</select> <br><br>
+
+				<label>Button:: </label>
+				<button type="button" onclick="Alert('Hello world')"> click here for Alaram</button>
+			</form>
+
+	<br><br>
+	<form>
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+	</body>
+</html>
